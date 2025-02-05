@@ -40,22 +40,43 @@ public class PracticeProblem {
 		//Write question 3 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("In:");
+		String d = input.nextLine();
+		System.out.println(d + "was the text you wrote");
+		input.close();
 		
 	}
 
 	public static void q4() {
 		//Write question 4 code here
+		Scanner input = new Scanner(System.in);
+		System.out.print("In:");
+		int e = input.nextInt();
+		System.out.println(e*5);
+		input.nextLine();
+		input.close();
+
 		
 	}
 
 	public static void q5() {
 		//Write question 5 code here
+		Scanner input = new Scanner (System.in);
+		System.out.print("In:");
+		boolean f = input.nextBoolean();
+		System.out.println(f + "is a boolean");
+		input.nextLine();
+		input.close();
 		
 	}
 
 	public static void q6() {
 		//Write question 6 code here
-		
+		Scanner input = new Scanner(System.in);
+		System.out.print("In:");
+		double g = input.nextDouble();
+		System.out.println(g - 3.2);
+		input.nextLine();
+		input.close();
 	}
 
 }
