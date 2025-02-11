@@ -63,7 +63,7 @@ public class PracticeProblem {
 		Scanner input = new Scanner (System.in);
 		System.out.print("In: ");
 		boolean f = input.nextBoolean();
-		System.out.println(f + "is a boolean");
+		System.out.println(f + " is a boolean");
 		input.nextLine();
 		input.close();
 		
